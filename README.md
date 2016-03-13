@@ -10,6 +10,8 @@ make sure you are the user you wish to own this
 
 `curl -d '{"name": "joelectronic"}' -H X-GitHub-OTP:123456 -u davejagoda https://api.github.com/user/repos`
 
+`git init`
+
 `git remote add origin git@github.com:davejagoda/joelectronic.git`
 
 `printf '%s\n' '#emacs' '*~' > .gitignore`
